@@ -1,0 +1,138 @@
+/* Scrollbar css */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background: #00ff00;
+}
+
+::-webkit-scrollbar-button {
+  color: #00ff00;
+}
+
+/*css variable*/
+:root {
+  --opacity-of-Command-center: 0.6;
+  --left-margin-carousel: 2.5vw;
+  --right-margin-carousel: 2.5vw;
+  --left-margin-tsundoku-carousel: 1.5vw;
+  --right-margin-tsundoku-carousel: 1.5vw;
+}
+
+/*global styles*/
+@font-face {
+  font-family: Retro-Computer;
+  src: local("RetroComputer"), url(../Css/RetroComputer.ttf);
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: Courier;
+  src: local("Courier"), url(../Css/Courier.ttf);
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  color: #00ff00;
+  background-color: black;
+}
+*::selection {
+  background: #00ff00;
+  color: black;
+}
+
+.Visit-link {
+  margin-top: 1vh;
+}
+.Visit-wishbox {
+  margin-top: 0;
+}
+h1 {
+  font-family: Retro-Computer;
+  font-size: 3vh;
+  margin: 0;
+}
+
+body {
+  font-family: Courier;
+  font-size: 2.2vh;
+  line-height: 2.4vh;
+}
+
+input {
+  resize: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  box-sizing: content-box;
+  border-style: none;
+  overflow: hidden;
+}
+.Input-text {
+  font-family: Retro-Computer;
+  font-size: 2vh;
+  line-height: 2.4vh;
+  max-width: 90%;
+}
+p {
+  margin: 0;
+  width: 90%;
+}
+
+.Submit-button {
+  opacity: 0;
+  pointer-events: none;
+}
+.Return-command-container {
+  margin-top: 1vh;
+}
+.Suggestion-commands-container {
+  margin-top: 1vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.Suggestion-individual-command-container {
+  padding-left: 3vw;
+}
+
+.Margin-after-each-command {
+  margin-top: 5vh;
+}
+.Suggestion-word {
+  /* text-decoration: underline; */
+  cursor: pointer;
+  margin-top: 0;
+}
+.carousel {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+/* Placeholders */
+.Donut-image-placeholder {
+  width: 50vw;
+  height: 70vw;
+}
+.Donut-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Tsundoku-image-placeholder {
+  width: 75vw;
+  height: 40vw;
+}
+.Tsundoku-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.Euff-image-placeholder {
+  width: 75vw;
+  height: 48vw;
+}
+.Euff-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}

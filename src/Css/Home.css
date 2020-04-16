@@ -1,0 +1,74 @@
+/*variables*/
+
+h1 {
+  font-size: 2vh;
+  line-height: 2.4vh;
+  margin-top: 2.3vh;
+}
+.Agent-description {
+  padding-top: 1.7vh;
+  opacity: 0.94;
+}
+.Agent-summary {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 6vh;
+}
+.Upper-line,
+.Lower-line {
+  margin-left: 0;
+  margin-right: 0;
+  height: 6px;
+  border-width: 0;
+  color: #00ff00;
+  background-color: #00ff00;
+  opacity: var(--opacity-of-Command-center);
+}
+.Lower-line {
+  margin-top: 2px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Lines {
+  display: flex;
+  justify-content: flex-start;
+}
+.Lower-line-box,
+.Lower-line-right-box {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+.Lower-line-right-box {
+  justify-content: right;
+}
+.Command-center {
+  margin: 0;
+  line-height: 1.2vh;
+  /* opacity: var(--opacity-of-Command-center); */
+}
+.Command-center-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-width: 50%;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+}
+.Command-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.Input-field-container {
+  min-width: auto;
+  max-width: 40%;
+  margin-left: 5px;
+  overflow: hidden;
+}
+.Initial-command-container {
+  width: auto;
+  /* position: relative; */
+}
+.Removing-h1-for-Bash {
+  margin-top: 0;
+}
