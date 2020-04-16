@@ -29,7 +29,7 @@ function CommandEntry() {
           <hr className="Lower-line" />
         </div>
         <div className="Command-center-box">
-          <h1 className="Command-center">Command Center </h1>
+          <h1 className="Command-center">Command Center</h1>
         </div>
         <div className="Lower-line-right-box">
           <hr className="Lower-line" />
@@ -76,7 +76,6 @@ function CommandEntry() {
               Submit
             </button>
           </div>
-          {/* {problem} */}
         </div>
       </div>
     </div>
