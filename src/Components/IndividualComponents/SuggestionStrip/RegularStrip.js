@@ -6,7 +6,6 @@ export const RegularStrip = (props) => {
   };
   return (
     <div className="Suggestion-commands-container">
-      {console.log("returning regular strip")}
       <div>
         <h1
           className="Reducing-top-margin-for-h1 Suggestion-word"
