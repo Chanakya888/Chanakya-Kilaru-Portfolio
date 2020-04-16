@@ -62,6 +62,7 @@ function CommandEntry() {
             <input
               className="Input-text"
               type="text"
+              placeholder="Type command here"
               value={command}
               onChange={(e) => {
                 setCommand(e.target.value);

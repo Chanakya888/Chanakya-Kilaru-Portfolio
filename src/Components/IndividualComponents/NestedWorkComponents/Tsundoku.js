@@ -10,7 +10,7 @@ import Tsundoku02 from "../../../Images/Tsundoku/Tsundoku-02.png";
 import Tsundoku03 from "../../../Images/Tsundoku/Tsundoku-03.png";
 import Tsundoku04 from "../../../Images/Tsundoku/Tsundoku-04.png";
 import Tsundoku05 from "../../../Images/Tsundoku/Tsundoku-05.png";
-
+/* eslint-disable */
 export const Tsundoku = () => {
   const MyItem = ({ onClick, children, visible }) => (
     <div
@@ -48,9 +48,11 @@ export const Tsundoku = () => {
         </p>
         <br />
         <p>
-          “I designed the third edition of this magazine in 2019, I learnt what
-          changes are to be put in mind while designing a magazine that is going
-          to printed and how different it is from the RGB world.”
+          <q>
+            I designed the third edition of this magazine in 2019, I learnt what
+            changes are to be put in mind while designing a magazine that is
+            going to printed and how different it is from the RGB world.
+          </q>
         </p>
       </div>
       <div className="carousel">
@@ -67,7 +69,7 @@ export const Tsundoku = () => {
                 <img
                   className="Tsundoku-image"
                   src={Tsundoku02}
-                  alt="Tsundoku02"
+                  alt="Tsundoku-image"
                 />
               </div>
             </MyItem>
@@ -84,7 +86,7 @@ export const Tsundoku = () => {
                 <img
                   className="Tsundoku-image"
                   src={Tsundoku03}
-                  alt="Tsundoku03"
+                  alt="Tsundoku-image"
                 />
               </div>
             </MyItem>
@@ -101,7 +103,7 @@ export const Tsundoku = () => {
                 <img
                   className="Tsundoku-image"
                   src={Tsundoku05}
-                  alt="Tsundoku05"
+                  alt="Tsundoku-image"
                 />
               </div>
             </MyItem>
@@ -118,7 +120,7 @@ export const Tsundoku = () => {
                 <img
                   className="Tsundoku-image"
                   src={Tsundoku04}
-                  alt="Tsundoku04"
+                  alt="Tsundoku-image"
                 />
               </div>
             </MyItem>
@@ -135,7 +137,7 @@ export const Tsundoku = () => {
                 <img
                   className="Tsundoku-image"
                   src={Tsundoku01}
-                  alt="Tsundoku01"
+                  alt="Tsundoku-image"
                 />
               </div>
             </MyItem>

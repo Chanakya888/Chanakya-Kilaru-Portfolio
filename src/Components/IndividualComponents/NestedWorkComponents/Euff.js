@@ -5,13 +5,13 @@ import {
   useVisibleElements,
   useScroll,
 } from "react-snaplist-carousel";
-
-import Euff01 from "../../../Images/Euff/Euff-01.png";
-import Euff02 from "../../../Images/Euff/Euff-02.png";
-import Euff03 from "../../../Images/Euff/Euff-03.png";
-import Euff04 from "../../../Images/Euff/Euff-04.png";
-import Euff05 from "../../../Images/Euff/Euff-05.png";
-import Euff06 from "../../../Images/Euff/Euff-06.png";
+/* eslint-disable */
+import Euff01 from "../../../Images/Euff/Euff-01-min.png";
+import Euff02 from "../../../Images/Euff/Euff-02-min.png";
+import Euff03 from "../../../Images/Euff/Euff-03-min.png";
+import Euff04 from "../../../Images/Euff/Euff-04-min.png";
+import Euff05 from "../../../Images/Euff/Euff-05-min.png";
+import Euff06 from "../../../Images/Euff/Euff-06-min.png";
 export const Euff = () => {
   const MyItem = ({ onClick, children, visible }) => (
     <div
@@ -42,10 +42,12 @@ export const Euff = () => {
         </p>
         <br />
         <p>
-          “It was my first internship, I was excited to learn and work on new
-          things, which is exactly what I did, I got the opportunity and support
-          to design prototypes, rework on them after taking reviews from the
-          client, and developed the website.”
+          <q>
+            It was my first internship, I was excited to learn and work on new
+            things, which is exactly what I did, I got the opportunity and
+            support to design prototypes, rework on them after taking reviews
+            from the client, and developed the website.
+          </q>
         </p>
         <a
           href="https://euffindia2019.webflow.io"
@@ -63,7 +65,7 @@ export const Euff = () => {
           >
             <MyItem onClick={() => goToSnapItem(0)} visible={visible === 0}>
               <div className="Euff-image-placeholder">
-                <img className="Euff-image" src={Euff01} alt="Euff01" />
+                <img className="Euff-image" src={Euff01} alt="Euff-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -76,7 +78,7 @@ export const Euff = () => {
           >
             <MyItem onClick={() => goToSnapItem(1)} visible={visible === 1}>
               <div className="Euff-image-placeholder">
-                <img className="Euff-image" src={Euff02} alt="Euff02" />
+                <img className="Euff-image" src={Euff02} alt="Euff-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -89,7 +91,7 @@ export const Euff = () => {
           >
             <MyItem onClick={() => goToSnapItem(2)} visible={visible === 2}>
               <div className="Euff-image-placeholder">
-                <img className="Euff-image" src={Euff03} alt="Euff03" />
+                <img className="Euff-image" src={Euff03} alt="Euff-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -102,7 +104,7 @@ export const Euff = () => {
           >
             <MyItem onClick={() => goToSnapItem(3)} visible={visible === 3}>
               <div className="Euff-image-placeholder">
-                <img className="Euff-image" src={Euff04} alt="Euff04" />
+                <img className="Euff-image" src={Euff04} alt="Euff-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -115,7 +117,7 @@ export const Euff = () => {
           >
             <MyItem onClick={() => goToSnapItem(4)} visible={visible === 4}>
               <div className="Euff-image-placeholder">
-                <img className="Euff-image" src={Euff06} alt="Euff06" />
+                <img className="Euff-image" src={Euff06} alt="Euff-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -126,9 +128,9 @@ export const Euff = () => {
             }}
             snapAlign="center"
           >
-            <MyItem onClick={() => goToSnapItem(4)} visible={visible === 4}>
+            <MyItem onClick={() => goToSnapItem(5)} visible={visible === 5}>
               <div className="Euff-image-placeholder">
-                <img className="Euff-image" src={Euff05} alt="Euff05" />
+                <img className="Euff-image" src={Euff05} alt="Euff-image" />
               </div>
             </MyItem>
           </SnapItem>

@@ -6,7 +6,7 @@ h1 {
   margin-top: 2.3vh;
 }
 .Agent-description {
-  padding-top: 1.7vh;
+  padding-top: 1.3vh;
   opacity: 0.94;
 }
 .Agent-summary {
@@ -61,7 +61,7 @@ h1 {
 }
 .Input-field-container {
   min-width: auto;
-  max-width: 40%;
+  max-width: 51%;
   margin-left: 5px;
   overflow: hidden;
 }

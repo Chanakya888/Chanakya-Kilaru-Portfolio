@@ -22,8 +22,29 @@ export const Validate = (props) => {
     return <Tedx />;
   } else if (value === "donut") {
     return <Donut />;
+  } else if (value === "contact") {
+    return (
+      <div className="Contact-container">
+        <a href="mailto:hello@chanakyakilaru.com ">
+          {" "}
+          <h1 className="Visit-link">Email</h1>
+        </a>
+        <a href="tel:+919866072895">
+          {" "}
+          <h1 className="Visit-link Individual-contact">Phone</h1>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kilaru-chanakya/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <h1 className="Visit-link Individual-contact">Linkedin</h1>
+        </a>
+      </div>
+    );
   } else {
-    return <HelpComponent />;
+    return <HelpComponent value={value} />;
   }
 };
 

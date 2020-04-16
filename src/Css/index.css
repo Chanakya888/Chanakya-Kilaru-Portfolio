@@ -39,7 +39,19 @@
   background: #00ff00;
   color: black;
 }
+q {
+  margin-left: 0;
+}
 
+q:before {
+  content: '"';
+  position: absolute;
+  margin-left: -0.4em;
+}
+
+q:after {
+  content: '"';
+}
 .Visit-link {
   margin-top: 1vh;
 }
@@ -55,7 +67,7 @@ h1 {
 body {
   font-family: Courier;
   font-size: 2.2vh;
-  line-height: 2.4vh;
+  line-height: 2.6vh;
 }
 
 input {
@@ -92,7 +104,12 @@ p {
 .Suggestion-individual-command-container {
   padding-left: 3vw;
 }
-
+.Contact-container {
+  padding-top: 1vh;
+}
+.Individual-contact {
+  margin-top: 2vh;
+}
 .Margin-after-each-command {
   margin-top: 5vh;
 }

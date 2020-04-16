@@ -5,12 +5,12 @@ import {
   useVisibleElements,
   useScroll,
 } from "react-snaplist-carousel";
-import Donut01 from "../../../Images/Donut/Donut-1.png";
-import Donut02 from "../../../Images/Donut/Donut-2.png";
-import Donut03 from "../../../Images/Donut/Donut-3.png";
-import Donut04 from "../../../Images/Donut/Donut-4.png";
-import Donut05 from "../../../Images/Donut/Donut-5.png";
-
+import Donut01 from "../../../Images/Donut/Donut-1-min.png";
+import Donut02 from "../../../Images/Donut/Donut-2-min.png";
+import Donut03 from "../../../Images/Donut/Donut-3-min.png";
+import Donut04 from "../../../Images/Donut/Donut-4-min.png";
+import Donut05 from "../../../Images/Donut/Donut-5-min.png";
+/* eslint-disable */
 export const Donut = () => {
   const MyItem = ({ onClick, children, visible }) => (
     <div
@@ -42,22 +42,26 @@ export const Donut = () => {
         </p>
         <br />
         <p>
-          “Spending time in a university, it’s pretty commonplace to feel
-          alienated from the outside world. the worst part is not being able to
-          have good food reminiscent of home; and that’s how we came up with
-          Donut. Donut was our attempt at making a self- managed platform for
-          procuring and satisfying the food cravings at BMU. Its an app much
-          like other food delivery system. The delivery man who are the students
-          of the university receives a bit of compensation as per his/her own
-          demand, providing him a chance to earn a quick buck and satisfy the
-          food craving of the students back at the university.”
+          <q>
+            Spending time in a university, it’s pretty commonplace to feel
+            alienated from the outside world. the worst part is not being able
+            to have good food reminiscent of home; and that’s how we came up
+            with Donut. Donut was our attempt at making a self- managed platform
+            for procuring and satisfying the food cravings at BMU. Its an app
+            much like other food delivery system. The delivery man who are the
+            students of the university receives a bit of compensation as per
+            his/her own demand, providing him a chance to earn a quick buck and
+            satisfy the food craving of the students back at the university.
+          </q>
         </p>
         <br />
         <p>
-          “I learnt to build low fidelity and high fidelity prototypes for the
-          first time, I had an amazing time putting in thoughts, ideas, thinking
-          what would be this a better experience to use and testing the
-          prototypes.”
+          <q>
+            I learnt to build low fidelity and high fidelity prototypes for the
+            first time, I had an amazing time putting in thoughts, ideas,
+            thinking what would be this a better experience to use and testing
+            the prototypes.
+          </q>
         </p>
       </div>
       <div className="carousel">
@@ -69,7 +73,7 @@ export const Donut = () => {
             <MyItem onClick={() => goToSnapItem(0)} visible={visible === 0}>
               {" "}
               <div className="Donut-image-placeholder">
-                <img className="Donut-image" src={Donut01} alt="Donut01" />
+                <img className="Donut-image" src={Donut01} alt="Donut-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -82,7 +86,7 @@ export const Donut = () => {
           >
             <MyItem onClick={() => goToSnapItem(1)} visible={visible === 1}>
               <div className="Donut-image-placeholder">
-                <img className="Donut-image" src={Donut02} alt="Donut01" />
+                <img className="Donut-image" src={Donut02} alt="Donut-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -95,7 +99,7 @@ export const Donut = () => {
           >
             <MyItem onClick={() => goToSnapItem(2)} visible={visible === 2}>
               <div className="Donut-image-placeholder">
-                <img className="Donut-image" src={Donut03} alt="Donut01" />
+                <img className="Donut-image" src={Donut03} alt="Donut-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -108,7 +112,7 @@ export const Donut = () => {
           >
             <MyItem onClick={() => goToSnapItem(3)} visible={visible === 3}>
               <div className="Donut-image-placeholder">
-                <img className="Donut-image" src={Donut04} alt="Donut01" />
+                <img className="Donut-image" src={Donut04} alt="Donut-image" />
               </div>
             </MyItem>
           </SnapItem>
@@ -118,7 +122,7 @@ export const Donut = () => {
           >
             <MyItem onClick={() => goToSnapItem(4)} visible={visible === 4}>
               <div className="Donut-image-placeholder">
-                <img className="Donut-image" src={Donut05} alt="Donut01" />
+                <img className="Donut-image" src={Donut05} alt="Donut-image" />
               </div>
             </MyItem>
           </SnapItem>

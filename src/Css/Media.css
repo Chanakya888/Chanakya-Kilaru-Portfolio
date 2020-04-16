@@ -15,10 +15,10 @@
     width: 65%;
   }
   .Agent-description {
-    padding-top: 1.8vw;
+    padding-top: 1.5vw;
   }
   .Agent-summary {
-    padding-top: 3vw;
+    padding-top: 1.5vw;
   }
   .Lower-line {
     margin-top: 0px;
@@ -85,6 +85,7 @@
     margin-bottom: 1.7vw;
   }
 }
+
 /* Queries for 18:9 landscapes */
 @media only screen and (min-device-width: 350px) and (min-device-width: 700px) and (orientation: landscape) {
   h1 {
@@ -151,6 +152,9 @@
   }
   .Command-center-box {
     min-width: 24%;
+  }
+  .Agent-description {
+    padding-top: 1.2vw;
   }
   .Input-text {
     font-size: 1.7vw;
