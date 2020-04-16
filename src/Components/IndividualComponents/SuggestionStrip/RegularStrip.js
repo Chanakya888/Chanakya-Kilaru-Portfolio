@@ -9,7 +9,7 @@ export const RegularStrip = (props) => {
       <div>
         <h1
           className="Reducing-top-margin-for-h1 Suggestion-word"
-          onClick={(e) => sendSuggestion("work")}
+          onClick={(e) => sendSuggestion("work")} 
         >
           work
         </h1>
