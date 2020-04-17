@@ -6,14 +6,23 @@ export const HomeComponent = () => {
       <div className="Agent-summary">
         <div className="Agent-ID">
           <h1>Welcome to Star Trek command center v-22.1.5</h1>
-          <h1>Agent name: Chanakya Kilaru</h1>
-          <h1>Ship: uss enterprise</h1>
-          <h1>Role: designer and developer</h1>
+          <h1>
+            Agent name: <span className="Reduced-opacity">Chanakya Kilaru</span>
+          </h1>
+          <h1>
+            Ship: <span className="Reduced-opacity">uss enterprise</span>
+          </h1>
+          <h1>
+            Role:
+            <span className="Reduced-opacity"> designer and developer</span>
+          </h1>
           <h1>
             Contact:{" "}
-            <a href="mailto:hello@chanakyakilaru.com ">
-              hello@chanakyakilaru.com
-            </a>
+            <span className="Reduced-opacity">
+              <a href="mailto:hello@chanakyakilaru.com ">
+                hello@chanakyakilaru.com
+              </a>
+            </span>
           </h1>
           <h1>Available for exciting freelance projects</h1>
         </div>
