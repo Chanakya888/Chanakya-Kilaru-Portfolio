@@ -50,7 +50,7 @@ export const Euff = () => {
           </q>
         </p>
         <a
-          href="https://euffindia2019.webflow.io"
+          href="https://euffindia.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
